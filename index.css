@@ -8,3 +8,7 @@ ul {
 li {
   display: inline;
 }
+
+h1 {
+  color: red;
+}
