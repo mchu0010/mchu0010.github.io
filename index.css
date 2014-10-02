@@ -1,4 +1,10 @@
-/*
+.headerbar {
+/*position: absolute;*/
+/*background-color: rgba(4,24,67,.8);*/
+width: 100%;
+}
+
+
 
 ul {
     list-style-type: none;
@@ -6,11 +12,21 @@ ul {
     padding: 5;
 }
 
-li {
+
+li a {
   display: inline;
+  color: black;
+  text-decoration: none;
+  font-family: Times;
+  font-style: bold;
 }
-*/
+
 
 h1 {
-  color: red;
+  color: green;
+}
+
+.icons {
+  margin-top:30%;
+  float: left;
 }
