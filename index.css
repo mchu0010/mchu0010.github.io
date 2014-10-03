@@ -19,11 +19,13 @@ li a {
   text-decoration: none;
   font-family: Times;
   font-style: bold;
+  font-size: 1.2em
 }
 
 
 h1 {
   color: green;
+  font-size: 3em
 }
 
 .icons {
