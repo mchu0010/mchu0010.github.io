@@ -1,3 +1,7 @@
+*{
+  background-color: gray
+}
+
 .headerbar {
 /*position: absolute;*/
 /*background-color: rgba(4,24,67,.8);*/
@@ -24,7 +28,7 @@ li a {
 
 
 h1 {
-  color: green;
+  color: #A7DBD8;
   font-size: 3em
 }
 
