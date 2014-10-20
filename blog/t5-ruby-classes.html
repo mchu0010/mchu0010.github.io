@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../blog-stylesheet.css">
+  </head>
+
+
+<body>
+
+  <h1> Michael Chu </h1>
+
+  <div>
+      <table width="95%" align="center" height="10%" border="2px">
+        <tr>
+          <td class="menu"><a href="#">Home</td>
+          <td class="menu"><a href="#">About Me</td>
+          <td class="menu"><a href="#">Portfolio</td>
+          <td class="menu"><a href="#">Contact</td>
+        </tr>
+      </table>
+  </div>
+
+  <h2 style="color:green;text-align:center;font-size:40px"> My Blog </h2>
+
+
+
+
+  <div>
+      <table class="text-area" width= align="left" height= "100px">
+        <tr>
+          <h3 text="font">Classes and Instance Variable</h3>
+          <h4>Bluegills Chicago - Phase 0 Week 5</h4>
+          <h4>October 19, 2014</h4>
+        </tr>
+        <tr>
+            <td class="entry-data">
+
+              <p><strong>CLASS</strong>
+                <br>What is <b>class</b>? In ruby, a <i>class</i> is a way of organizing and producing objects with similar attributes and methods.
+                <br> A basic class consists of the word <i>class</i> and the name of your class, in this case &quot;Lakers&quot;. </p>
+
+<img src= "https://raw.githubusercontent.com/mchu0010/mchu0010.github.io/master/images/laker_program.png"/>
+              <p></p>
+
+              <p>The program above shows an example of a class called Lakers. What this code does is when you input the player&rsquo;s name, position, 
+              <br>and the years pro, it will output all that information with the player&rsquo;s draft class. There are three methods in this that can
+              <br> be called on. </p>
+
+              <p style="font-family: Consolas">class Lakers
+              <br>end<p>  
+              
+              <br>
+              <p><strong>INITIALIZE</strong>
+                <br>Under &quot;class Lakers&quot;, you can see that I defined an initialize method.  What this &quot;def initialize&quot; method does is it makes 
+                <br>this method execute every time a a new instance of class is created.
+              </p>
+
+              <p style="font-family: Consolas">def initialize(name, position, years_pro)
+              <br>&nbsp;&nbsp;&#64;name = name
+              <br>&nbsp;&nbsp;&#64;position = position  
+              <br>&nbsp;&nbsp;&#64;years_pro = years_pro
+              <br>end</p>
+              <br>
+
+               <p><strong>INSTANCE VARIABLES</strong>
+                <br>Under the &quot;def initialize&quot;, there variables with the &quot;@&quot; sign in front of it. These are called instance variables and the the 
+                <br>difference between local variables and instance variable is that an instance variable retains the value assigned to it even
+                <br> after a method in which it was initialized has terminated. This means that the variable is attached to the instance of the
+                <br> class. For example, in the program below player has his own @name &#40;&quot;Kobe Bryant&quot;&#41;, @position &#40;&quot;Shooting Guard&quot;&#41;, and a 
+                <br>@years_pro &#40;18&#41;. Those variables belong to the player instance, which is why they&rsquo;re called instance variables.
+              </p>
+
+              <p style="font-family: Consolas">&#64;name = name
+              <br>&#64;position = position  
+              <br>&#64;years_pro = years_pro</p>
+              <br>
+
+              <p><strong>NEW OBJECT</strong>
+                <br>We can create an instance of a class just by calling &quot;.new&quot; on the class name. At bottom of the entire Lakers class, we defined
+                <br> a new object called &quot;player = Lakers.new&quot; with the three argument it&rsquo;s 3 arguments: name, position, and years_pro. Also, below the
+                <br> new object, you can see that we called 2 methods on our object kobe and that outputs&#58;</p>
+              
+              <p style="font-family: Consolas">Player: Kobe Bryant
+              <br>Position: Shooting Guard
+              <br>Draft Class&#58; 1996</p>
+              <br>
+              <br>
+
+
+             </td>
+        </tr>
+      </table>
+  </div>
+
+
+
+
+
+
+  <footer>
+    <tr>
+      <td>
+        <a href="http://www.facebook.com"><img src="http://thenetshop-1stdomain.ciroqultd.netdna-cdn.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/facebook.png?38c0f7"></a>
+      </td>
+
+      <td>
+        <a href="http://www.gmail.com"><img src="http://thenetshop-1stdomain.ciroqultd.netdna-cdn.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/google.png?38c0f7"></a>
+      </td>
+
+      <td>
+        <a href="http://www.twitter.com"><img src="http://thenetshop-1stdomain.ciroqultd.netdna-cdn.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/twitter.png?38c0f7"></a>
+      </td>
+
+      <td>
+        <a href="http://www.linkedin.com"><img src="http://thenetshop-1stdomain.ciroqultd.netdna-cdn.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/linkedin.png?38c0f7"></a>
+      </td>
+
+      <td>
+        <a href="#"><img src="http://thenetshop-1stdomain.ciroqultd.netdna-cdn.com/wp-content/plugins/simple-share-buttons-adder/buttons/somacro/email.png?38c0f7"></a>
+      </td>
+
+
+
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
+
