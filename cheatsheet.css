@@ -1,0 +1,46 @@
+html {
+    background-color: #E0FFFF;
+}
+
+p {
+  padding: 0 200px 0 200px;
+  text-align: center;
+  color: #333333;
+}
+
+/*h1 {
+  vertical-align: middle;
+  display: table-cell;
+  padding-left:15px;
+  height:50px;
+  font-size: 60px;
+  float: left;
+  margin:10px;
+  margin-left: 50px;
+  color:black;
+}
+*/
+.title {
+  width: 99%;
+  height: 120px;
+  background-color: #d3d3d3;
+  text-align: center;
+  padding-top: 25px;
+  border: 4px solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-body {
+  width: 95%;
+  margin: 2%;
+  height: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+#id {
+  font-size: 25px;
+}
